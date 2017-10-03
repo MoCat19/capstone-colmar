@@ -134,3 +134,96 @@ a {
   background-color: #F96D00;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
   }
+
+  /*Info*/
+#content {
+  display: flex;
+  width: 100%;
+  padding-top: 16px;
+  position: relative;
+  background-color: #f7f8f9;
+  }
+
+#left-info {
+  margin: 32px 24px;
+  width: 60%;
+  }
+
+#left-info .practice {
+  width: 100%;
+  }
+
+#left-info h1 {
+  color: #52524E;
+  font-size: 32px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+#left-info p {
+  padding-top: 24px;
+  color: #52524E;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+#left-info .quote-author {
+  padding-bottom: 32px;
+}
+
+#right-info {
+  display: flex;
+  flex-direction: column;
+  width: 32.4rem;
+  justify-content: flex-start;
+  margin-top: 32px;
+  margin-left: 1.5rem;
+}
+
+#small {
+  display: flex;
+}
+
+#info-btn:hover {
+  background-color: #d4d6d8;
+}
+
+#info-picture {
+  width: 35%;
+  margin-left: 1rem;
+}
+
+#info-picture img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#info {
+  align-items: center;
+  margin-left: 10px;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#info p {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+#info a {
+  color: #8db3ef;
+}
+
+#lecture {
+  background-color: #f7f8f9;
+}
+
+#mobile-picture {
+  display: none;
+}
