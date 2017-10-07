@@ -2,17 +2,18 @@
 <html>
 <head>
   <title>Colmar Academy</title>
-  <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
-  <link href="resoures/css/style.css" rel="stylesheet" type="text/css">
+  <link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700|Roboto:400,500,700,900" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
   <header id="desktop-header">
-    <div id="logo">
-      <img src="resources/images/ic-logo.svg" alt="Logo">
-      <span id="logo-text"><strong>COLMAR<address/strong> ACADEMY </span>
+    <div class="logo">
+      <img src="./resources/images/ic-logo.svg" alt="Logo">
+      <span id="logo-text"><strong>COLMAR</strong>ACADEMY</span>
       </div>
-      <nav id="desktop-nav">
+      <nav class="desktop-nav">
         <a href="#">On Campus</a>
         <a href="#">Online</a>
         <a href="#">For companies</a>
@@ -34,22 +35,22 @@
         <img src="./resources/images/banner.jpg" alt="Students">
       </div>
       <div id="banner-content">
-        <div id="banner-text">
+        <div class="banner-text">
           <h1>Learn something new everyday</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
-        <a href="#" id="button">Start here</a>
+        <a href="#" class="button">Start here</a>
       </div>
     </div>
     <!-- Info -->
     <div id="content">
       <div id="left-info">
-        <img id="practice" src="./resources/images/information-main.jpg" alt="Reading">
+        <img src="./resources/images/information-main.jpg" alt="Reading">
         <h1>It doesn't hurt to keep practicing</h1>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         <br>
         <br>
-        <p id="quote-author">Emanuel, Sr Strategist at Hiring.com</p>
+        <p class="quote-author">Emanuel, Sr Strategist at Hiring.com</p>
       </div>
       <div id="right-info">
         <div id="small">
@@ -84,8 +85,7 @@
           <a id="info-btn" href="#">Read more</a>
         </div>
       </div>
-      <div id="small">
-      <div id="lecture">
+        <div id="small">
         <div id="info-picture">
           <img src="./resources/images/information-guest-lecture.jpg" alt="Guest Lecture">
         </div>
@@ -101,7 +101,6 @@
           <a id="info-btn" href="#">Read more</a>
         </div>
       </div>
-    </div>
   </div>
 </div>
 <!-- Courses -->
@@ -109,51 +108,51 @@
   <h2 id="section-head">Start learning</h2>
   <div id="course-list">
     <div id="courses">
-      <img src="./resources/images/course-software.jpg" alt="Software Engineering">
+      <a href="#"><img src="./resources/images/course-software.jpg" alt="Software Engineering"></a>
       <div id="course-title">
-        <h3>Software engineering</h3>
-        <h2>COURSES</h2>
+        <h2>Software engineering</h2>
+        <h3>COURSES</h3>
         <p>Web Development, Mobile Development, iOT, APIs</p>
       </div>
     </div>
     <div id="courses">
-      <img src="./resources/images/course-computer-art.jpg" alt="Computer art">
+      <a href="#"><img src="./resources/images/course-computer-art.jpg" alt="Computer art"></a>
       <div id="course-title">
-        <h3>Computer art</h3>
-        <h2>COURSES</h2>
+        <h2>Computer art</h2>
+        <h3>COURSES</h3>
         <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
       </div>
     </div>
     <div id="courses">
-      <img src="./resources/images/course-design.jpg" alt="Design">
+      <a href="#"><img src="./resources/images/course-design.jpg" alt="Design"></a>
       <div id="course-title">
-        <h3>Design</h3>
-        <h2>COURSES</h2>
+        <h2>Design</h2>
+        <h3>COURSES</h3>
         <p>User Experience Design, User Research, Visual Design</p>
       </div>
     </div>
     <div id="courses">
-      <img src="./resources/images/course-data.jpg" alt="Data">
+      <a href="#"><img src="./resources/images/course-data.jpg" alt="Data"></a>
       <div id="course-title">
-        <h3>Data</h3>
-        <h2>COURSES</h2>
-        <p>Data Science, Big Data, SQL, Data Visualization</p>
+        <h2>Data</h2>
+        <h3>COURSES</h3>
+        <p>Data Science, Big Data, SQL, <br>Data Visualization</p>
       </div>
     </div>
     <div id="courses">
-      <img src="./resources/images/course-business.jpg" alt="Business">
+      <a href="#"><img src="./resources/images/course-business.jpg" alt="Business"></a>
       <div id="course-title">
-        <h3>Business</h3>
-        <h2>COURSES</h2>
+        <h2>Business</h2>
+        <h3>COURSES</h3>
         <p>Product Development, Business Development, Startup</p>
       </div>
     </div>
     <div id="courses">
-      <img src="./resources/images/course-marketing.jpg" alt="Marketing">
+      <a href="#"><img src="./resources/images/course-marketing.jpg" alt="Marketing"></a>
       <div id="course-title">
-        <h3>Marketing</h3>
-        <h2>COURSES</h2>
-        <p>Analytics, Content Marketing, Mobile Marketing</p>
+        <h2>Marketing</h2>
+        <h3>COURSES</h3>
+        <p>Analytics, Content Marketing, <br>Mobile Marketing</p>
       </div>
     </div>
   </div>
@@ -168,35 +167,38 @@
   <a id="degree-btn" href="#"><h1>Marketing</h1></a>
 </div>
 <!-- Thesis -->
-<div id="thesis-content">
-  <h2 id="section-head">Thesis exhibit</h2>
-  <div id="urban">
-    <div id="video">
-      <video src="./resources/videos/thesis.mp4" controls>Oops! Something went wrong...</video>
+<div id="thesis-exhibit">
+<h1>Thesis exhibit</h1>
+<div id="ex-content">
+    <div id="video-exhibit">
+      <video src="./resources/videos/thesis.mp4" type="video.mp4" controls>
+      </video>
+      <h2>Reimagine urban</h2>
+      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec
+        consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget
+        magna laoreet, efficitur dolor consequat, tristique ligula"</p>
     </div>
-    <div id="video-title">
-      <h3>Reimagine urban</h3>
-      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+      <div id="right-exhibit">
+    <div id="small-ex">
+      <div id="pic">
+        <a href="#"><img src="./resources/images/thesis-fisma.jpg" alt="Fisma"></a>
+      </div>
+        <div id="ex-title">
+          <h3>Fisma: Design and Prototype</h3>
+          <br>
+          <p>Designer showcase of new <br>prototype product</p>
+        </div>
     </div>
-  </div>
-    <div id="thesis-right">
-      <div id="thesis-pic">
-        <img src="./resources/images/thesis-fisma.jpg" alt="Fisma">
+    <div id="small-ex">
+      <div id="pic">
+        <a href="#"><img src="./resources/images/thesis-now-and-then.jpg" alt="New York"></a>
       </div>
-      <div id="right-text">
-        <h3>Fisma: Design and Prototype</h3>
-        <br>
-        <p>Designer showcase of new prototype product</p>
-      </div>
+        <div id="ex-title">
+          <h3>Now and then</h3>
+          <br>
+          <p>Research study about New York</p>
+        </div>
     </div>
-    <div id="thesis-right">
-      <div id="thesis-pic">
-        <img src="./resources/images/thesis-now-and-then.jpg" alt="New York">
-      </div>
-      <div id="right-text">
-      <h3>Now and then</h3>
-      <br>
-      <p>Research study about New York</p>
     </div>
   </div>
 </div>
